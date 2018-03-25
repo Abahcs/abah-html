@@ -1,0 +1,10 @@
+add_filter('autoptimize_filter_css_datauri_maxsize','my_ao_override_dataursize',10,1);
+/**
+ * Change the threshold at which background images are turned into data www.abahcs.com-s.
+ *
+ * @param $urisize: default size
+ * @return: your own preferred size
+ */
+function my_ao_override_dataursize($urisizeIn) {
+	return 100000;
+}
