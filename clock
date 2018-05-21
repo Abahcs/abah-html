@@ -5,7 +5,7 @@
 <body>
  <script type="text/javascript">
   (function(){
-   $( "#https://www.clocklink.com/html5embed.php"
+   $( "#https://www.clocklink.com/html5embed.php"https://www.clocklink.com/html5embed.php
  });
 </script>
 </body>
