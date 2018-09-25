@@ -1,47 +1,15 @@
 <html>
 <head>
-var xmlHttp
- 
-function getVote(int)
-{
-xmlHttp=GetXmlHttpObject()
-if (xmlHttp==null)
-{
-alert ("Browser does not support HTTP Request")
-return
-}
-var url="poll_vote.php"
-url=url+"?vote="+int
-url=url+"&sid="+Math.random()
-xmlHttp.onreadystatechange=stateChanged
-xmlHttp.open("GET",url,true)
-xmlHttp.send(null)
-}
- 
-function stateChanged()
-{
-if (xmlHttp.readyState==4 || xmlHttp.readyState=="complete")
-{
-document.getElementById("poll").
-innerHTML=xmlHttp.responseText;
-}
-}
- 
-function GetXmlHttpObject()
-{
-var objXMLHttp=null
-if (window.XMLHttpRequest)
-{
-objXMLHttp=new XMLHttpRequest()
-}
-else if (window.ActiveXObject)
-{
-objXMLHttp=new ActiveXObject("Microsoft.XMLHTTP")
-}
-return objXMLHttp
-}
+<meta charset='utf-8'/>
+<meta content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,minimal-ui' name='viewport'/>
+<!--[if IE]><meta content='IE=edge; IE=9; IE=8; IE=7; chrome=1' http-equiv='X-UA-Compatible'/><![endif]-->
+<meta content='XiW37BoH894GRm12mVo1KbUoHn3qxxPtI8nWUYlLTLI' name='google-site-verification'/>
+<title>www.abahcs.com</title>
+<!-- Chrome, Firefox OS and Opera -->
+<meta content='#2B0C93' name='theme-color'/>
+
 </head>
- 
+
 <body>
 <div id="poll">
 Silahkan pilih kesukaan anda : <br>
