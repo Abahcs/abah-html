@@ -1,0 +1,17 @@
+<amp-carousel width=400 height=500 type=slides controls>
+        <figure>
+          <amp-img src="img/sample.jpg" width=300 height=400>
+          </amp-img>
+          <caption>Testing 1</caption>                    
+        </figure>
+        <figure>
+          <amp-img src="img/sample.jpg" width=300 height=400>
+          </amp-img>
+          <caption>Testing 2</caption>                    
+        </figure>
+        <figure>
+          <amp-img src="img/sample.jpg" width=300 height=400>
+          </amp-img>
+          <caption>Testing 3</caption>                    
+        </figure>        
+    </amp-carousel>    
