@@ -10,7 +10,61 @@
 <title>Sitemap</title>
 
 <meta content='width=device-width, initial-scale=1' name='viewport'>
+&lt;!-- <b:skin><![CDATA[
+ 
 
+body#layout #outer-wrapper{width:880px;background-color:transparent;overflow:visible;}
+
+body#layout #header-blog { overflow: hidden;}
+body#layout #header-blog:before {
+    content: "HEADER";
+    padding: 0 0 10px;
+    display: block;
+}
+body#layout .header-logo {width:40%;float:left;margin-top:2px;overflow:visible;}
+body#layout .header-AdSense {width:60%;float:left;margin-top:2px;overflow:visible;}
+
+
+body#layout #gadget-horizontal:before {
+    content: "SECCION ADSENSE";
+    padding: 0 0 26px;
+    display: block;
+    margin-top: 33px;
+}
+
+body#layout #gadget-responsive:before {
+    content: "SECCION POPULAR POST";
+    padding: 0 0 26px;
+    display: block;
+    margin-top: 33px;
+}
+
+body#layout #main-wrapper {width:62%;float:left;margin-top:2px;overflow:visible;}
+body#layout #sidebar-wrapper {width:36%;float:left;margin-top:2px;margin-left:10px;overflow:visible;}
+
+body#layout #sidebar-wrapper:before {
+    content: "SECCION SIDEBAR";
+    padding: 0 0 26px;
+    display: block;
+    margin-top: 33px;
+}
+
+
+body#layout #footer {overflow:hidden}
+body#layout .footer-wrapper{overflow:hidden}
+body#layout #footer1 {width:23%;float:left;margin-top:2px;overflow:visible;}
+body#layout #footer2 {width:23%;float:left;margin-top:2px;overflow:visible;}
+body#layout #footer3 {width:23%;float:left;margin-top:2px;overflow:visible;}
+body#layout #footer4 {width:23%;float:left;margin-top:2px;overflow:visible;}
+body#layout #footer:before {
+    content: "SECCION FOOTER";
+    padding: 0 0 26px;
+    display: block;
+    margin-top: 33px;
+}
+body#layout ul, li {display:none}
+
+]]></b:skin>
 <style>
 
 tr{border:1px solid#000}
